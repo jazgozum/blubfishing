@@ -429,3 +429,17 @@ svg {
 	50% { letter-spacing:0px; }
 	100% { letter-spacing:4px; }
 }
+
+
+#fixed-text {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+	color: white;
+	font-size: 14px;
+	z-index: 1000; /* Ensure it stays on top of other elements */
+}
